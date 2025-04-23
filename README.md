@@ -16,6 +16,8 @@ função recebeDados do servidor, permitindo que o servidor envie a mensagem atu
 todos os clientes. No cliente, a função recebeDados é responsável por receber mensagens do
 servidor e exibir em um terminal. A função utiliza o método recv() para receber mensagens do
 servidor e imprime cada mensagem recebida.
+
+
 Requisitos:
 RF-01: O servidor deve ser capaz de lidar com múltiplos clientes simultaneamente.
 RF-02: O chat deve ser capaz de lidar com desconexões de cliente, informando os outros
